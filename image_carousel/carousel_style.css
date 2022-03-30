@@ -1,4 +1,23 @@
 .slideshow-container{
     width: 60%;
     margin: auto;
+    overflow: hidden;
+    /* position: relative; */
 }
+
+.my-slides-fade{
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+
+/* #prev{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+} */

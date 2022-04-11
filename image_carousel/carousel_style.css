@@ -1,8 +1,7 @@
 .slideshow-container{
-    width: 60%;
+    width: 50%;
     margin: auto;
     overflow: hidden;
-    /* position: relative; */
 }
 
 .my-slides-fade{
@@ -11,13 +10,26 @@
     height: 700px;
 }
 
-/* #prev{
+#prev{
     position: absolute;
     top: 50%;
     z-index: 10;
     left: 5%;
     font-size: 30px;
+    background-color: darkgray;
     color: white;
     opacity: 0.5;
     cursor: pointer;
-} */
+}
+
+#next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    background-color: darkgray;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
